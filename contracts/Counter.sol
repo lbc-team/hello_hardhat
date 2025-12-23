@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.28;
 
-import "hardhat/console.sol";
+// import "hardhat/console.sol";
 
 contract Counter {
   uint public x;
@@ -11,7 +11,7 @@ contract Counter {
   function inc() public {
     x++;
 
-    console.log("x is now:", x);
+ //   console.log("x is now:", x);
     emit Increment(1);
   }
 
